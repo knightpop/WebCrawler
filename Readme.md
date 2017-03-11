@@ -8,5 +8,11 @@ $ source activate webcrawler
 
 ###Dependencies
 ```bash
-$ conda install scrapy
+$ conda install -y -c conda-forge scrapy=1.3.2
+$ conda install -y opencv
+```
+
+###Docker
+```bash
+$ docker run -v {mount}:/root/WebCrawler/images knightpop/webcrawlerexample:0.0.2
 ```
