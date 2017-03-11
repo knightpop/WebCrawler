@@ -1,5 +1,4 @@
-from ImageSpider import ImageSpider
+from scrapy import cmdline
 
-imageSpider = ImageSpider()
 
-imageSpider.start_requests()
+cmdline.execute("scrapy crawl humoruniv".split())
